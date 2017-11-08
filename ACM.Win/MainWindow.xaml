@@ -7,7 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Place Order" HorizontalAlignment="Left" Margin="333,31,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="3.325,-1.645" Click="Button_Click"/>
+        <Button Content="Place Order" HorizontalAlignment="Left" Margin="398,19,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="3.325,-1.645" Click="Button_Click"/>
+        <Button x:Name="brnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="333,148,0,0" VerticalAlignment="Top" Width="86" Height="67" Click="brnCalculate_Click"/>
+        <TextBox x:Name="TxtGoal" HorizontalAlignment="Left" Height="23" Margin="188,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtSteps" HorizontalAlignment="Left" Height="23" Margin="188,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Step Goal for Today" HorizontalAlignment="Left" Margin="40,146,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number of Steps Today" HorizontalAlignment="Left" Margin="40,188,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ResultLabel" Content="" HorizontalAlignment="Left" Margin="56,261,0,0" VerticalAlignment="Top" Height="40" Width="381" FontSize="16" FontWeight="Bold" Foreground="Blue"/>
 
     </Grid>
 </Window>

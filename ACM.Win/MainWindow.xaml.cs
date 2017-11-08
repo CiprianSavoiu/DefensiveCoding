@@ -47,5 +47,13 @@ namespace ACM.Win
                                 allowSplitOrders:false, 
                                 emailReceipt:true);
         }
+
+        private void brnCalculate_Click(object sender, RoutedEventArgs e)
+        {
+            var customer = new Customer();
+            var result = customer.CalculatePercentageOfGoalSteps(this.TxtGoal.Text,
+                                                                this.TxtSteps.Text);
+            ResultLabel.Content = $"You reached {result}% of your goal!";
+        }
     }
 }
