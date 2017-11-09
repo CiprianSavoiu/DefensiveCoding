@@ -18,12 +18,17 @@ namespace ACM.BL
 
         public void ValidateEmail()
         {
-            // -- Send an email receipt --
-            // If the user requested a receipt
-            // Get the customer data
-            // Ensure a valid email address was provided.
-            // If not,
-            // request an email address from the user.
+          if(string.IsNullOrWhiteSpace(this.EmailAddress)) throw new ArgumentException("Email address is null");
+
+            var isValidFormat = true;
+            //code here that validates the format of the email
+            //using Regular Expressions
+            if(!isValidFormat) throw new ArgumentException("Email address is not in a correct format");
+
+            var isRealDomain = true;
+            //Code here that confirms whether domain exists
+            if(!isRealDomain) throw new ArgumentException("Email address does not include a valid domain");
+
         }
 
         public decimal CalculatePercentageOfGoalSteps(string goalSteps, string actualSteps)
