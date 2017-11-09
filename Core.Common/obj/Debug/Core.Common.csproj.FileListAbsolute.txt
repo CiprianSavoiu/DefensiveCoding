@@ -1,0 +1,5 @@
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\Core.Common\bin\Debug\Core.Common.dll
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\Core.Common\bin\Debug\Core.Common.pdb
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\Core.Common\obj\Debug\Core.Common.csprojResolveAssemblyReference.cache
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\Core.Common\obj\Debug\Core.Common.dll
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\Core.Common\obj\Debug\Core.Common.pdb

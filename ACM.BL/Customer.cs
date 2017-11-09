@@ -28,15 +28,21 @@ namespace ACM.BL
 
         public decimal CalculatePercentageOfGoalSteps(string goalSteps, string actualSteps)
         {
-            decimal result = 0;
+            decimal goalStepsCount = 0;
+            decimal actualStepsCount = 0;
 
-            var goalStepCount = Convert.ToDecimal(goalSteps);
-            if (goalStepCount>0)
-            {
-                result = (Convert.ToDecimal(actualSteps) / goalStepCount) * 100;
-            }
+            if(string.IsNullOrWhiteSpace(goalSteps)) throw new ArgumentException("Goal must be entered", "goalSteps");
+            if(!decimal.TryParse(goalSteps, out goalStepsCount)) throw new ArgumentException("Goal must be numer", "goalSteps");
 
-            return result;
+            if(string.IsNullOrWhiteSpace(actualSteps)) throw new ArgumentException("Actual step must be entered", "actualSteps");
+            if(!decimal.TryParse(actualSteps, out actualStepsCount)) throw new ArgumentException("Actual steps must be numeric", "actualSteps");
+           
+            return CalculatePercentageOfGoalSteps(goalStepsCount, actualStepsCount);
+        }
+        public decimal CalculatePercentageOfGoalSteps(decimal goalStepCount, decimal actualStepsCount)
+        {
+            if (goalStepCount <= 0) throw new ArgumentException("Goal must be greater then zero", "goalSteps");
+            return (Convert.ToDecimal(actualStepsCount) / goalStepCount) * 100;
         }
     }
 }

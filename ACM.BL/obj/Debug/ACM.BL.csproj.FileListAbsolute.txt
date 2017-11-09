@@ -1,0 +1,7 @@
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\ACM.BL\bin\Debug\ACM.BL.dll
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\ACM.BL\bin\Debug\ACM.BL.pdb
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\ACM.BL\bin\Debug\Core.Common.dll
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\ACM.BL\bin\Debug\Core.Common.pdb
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\ACM.BL\obj\Debug\ACM.BL.csprojResolveAssemblyReference.cache
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\ACM.BL\obj\Debug\ACM.BL.dll
+C:\#Courses\Pluralsight\c#\02DefensiveCoding\MyWork\DefensiveCoding\ACM.BL\obj\Debug\ACM.BL.pdb
